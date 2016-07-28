@@ -1,4 +1,10 @@
+var Message = React.createClass({
+  render: function() {
+      return <div>Hello World!</div>
+  }
+});
+
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
+  <Message />,
   document.getElementById('example')
 );
